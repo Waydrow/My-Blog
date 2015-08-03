@@ -1,0 +1,2 @@
+# nodejs-hexo
+my blog
