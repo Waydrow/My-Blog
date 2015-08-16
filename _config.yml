@@ -67,7 +67,9 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 
 # theme: hexo-theme-hueman
+# theme: landscape
 theme: hexo-theme-next
+
 
 plugins:
 - hexo-generator-feed
@@ -102,7 +104,8 @@ social:
 # creative_commons: by-nc-sa
 
 # 百度分析ID
-# baidu_analytics: 50c15455e37f70aea674ff4a663eef27
+baidu_analytics: 440cccec3ac653933d71e5c3929b6bf0
+google_analytics: UA-66353260-1
 
 # title, chinese available
 links_title: Links
