@@ -59,7 +59,7 @@ toc_list_number: true
 # Automatically Excerpt   #阅读全文截取设置
 auto_excerpt:
   enable: true
-  length: 400
+  length: 200
 
 # Use Lato font
 # Note: this option is avialable only when the language is not `zh-Hans`
