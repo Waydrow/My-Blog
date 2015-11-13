@@ -1,6 +1,6 @@
 title: 关于此个人博客的一点感悟
 date: 2015-08-05 08:53:44
-comments: false
+comments: true
 ---
 
 **写在最前**

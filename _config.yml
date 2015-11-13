@@ -68,7 +68,7 @@ pagination_dir: page
 
 # theme: hexo-theme-hueman
 # theme: landscape
-theme: hexo-theme-next
+theme: yilia
 
 
 plugins:
@@ -79,24 +79,24 @@ plugins:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/Waydrow/My-Blog.git
+  repository: git@github.com:Waydrow/My-Blog.git
 
 
 
 # =============================================================================
 # NexT Theme configuration
 # =============================================================================
-avatar: /images/avatar.png  #个人头像
+avatar: /img/avatar.png  #个人头像
 
 # Disqus  #评论系统
 # disqus_shortname: blogWaydrow
-duoshuo_shortname: waydrow
+# duoshuo_shortname: waydrow
 
 # Social links
-social:
-	Facebook: https://www.facebook.com/profile.php?id=100009724052727&sk=about
-	GitHub: https://github.com/Waydrow
-	Email: mailto:waydrow@163.com
+# social:
+# 	Facebook: https://www.facebook.com/profile.php?id=100009724052727&sk=about
+# 	GitHub: https://github.com/Waydrow
+# 	Email: mailto:waydrow@163.com
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -104,15 +104,15 @@ social:
 # creative_commons: by-nc-sa
 
 # 百度分析ID
-baidu_analytics: 440cccec3ac653933d71e5c3929b6bf0
-google_analytics: UA-66353260-1
+# baidu_analytics: 440cccec3ac653933d71e5c3929b6bf0
+# google_analytics: UA-66353260-1
 
 # title, chinese available
 links_title: Links
 # links
-links:
-  MacTalk: http://macshuo.com/
-  Ymming: http://blog.ymming.com/
+# links:
+#   Ymming: http://blog.ymming.com/
+#   执凉: http://blog.lzkzhiliang.com/
 
 # 多说热评文章 true 或者 false
 # duoshuo_hotartical: true

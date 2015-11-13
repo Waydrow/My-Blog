@@ -1,6 +1,6 @@
 title: Sublime Text3 无法使用LiveReload插件的解决方法
 date: 2015-08-16 16:10:40
-categories: 一些
+categories: 技术
 tags:
 - sublime
 - web前端
@@ -11,7 +11,8 @@ tags:
 在sublime中写完代码，按下ctrl+s保存后，浏览器自动刷新页面，可直接查看效果，
 而不用切换到浏览器中再按F5刷新。这对于做web开发的真心方便，最爽的莫过于双屏开发，这边写完代码，保存，那边直接查看效果。
 然而，前段时间开始尝试`sublime text 3`, 没想到通过`package control`安装的`livereload`插件无法使用了，简直不能忍啊！！在网上搜索了好久，也看了国外的一些解答，总算找到了解决方法。
->以下教程仅针对windows用户，本人穷屌丝一枚，Mac高富帅请移步
+<!-- more -->
+>以下教程仅针对windows用户
 
 ## 安装LiveReload
 ### chrome
