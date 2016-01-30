@@ -1,4 +1,3 @@
-
 language: node_js
 
 node_js:
@@ -11,7 +10,7 @@ branches:
 before_install: 
 - openssl aes-256-cbc -K $encrypted_0a740d02c24d_key -iv $encrypted_0a740d02c24d_iv 
   -in travis_id_rsa.enc -out ~/.ssh/travis_id_rsa -d
-- chmod 600 ~/.ssh/travis_id_rsa 
+- chmod 600 ~/.ssh/travis_id_rsa
 - eval $(ssh-agent)
 - ssh-add ~/.ssh/travis_id_rsa
 - cp ssh_config ~/.ssh/config
