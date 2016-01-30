@@ -1,0 +1,36 @@
+
+# 指定环境
+language: node_js
+
+node_js:
+- '0.12' #指定使用 node.js 最新的稳定版0.12
+
+# 指定分支
+branches:
+  only:
+  - master //这个分支应当使用自己的 Dev repo
+
+#注意将xxxx内容修改为你之前获得的解密参数
+before_install: 
+- openssl aes-256-cbc -K $encrypted_0a740d02c24d_key -iv $encrypted_0a740d02c24d_iv 
+  -in travis_id_rsa.enc -out ~/.ssh/travis_id_rsa -d
+- chmod 600 ~/.ssh/travis_id_rsa //修改目录权限
+- eval $(ssh-agent)//将密钥加入系统
+- ssh-add ~/.ssh/travis_id_rsa
+- cp ssh_config ~/.ssh/config //修改 git 信息
+- git config --global user.name "Waydrow"
+- git config --global user.email Waydrow@163.com
+
+# 配置 Hexo
+install:
+- npm install hexo-cli -g
+- npm install
+- npm install hexo-generator-feed --save
+- npm install hexo-deployer-git --save
+- npm install hexo-generator-sitemap --save
+
+# 执行 Hexo 的编译操作
+script:
+- hexo clean
+- hexo g
+- hexo d
