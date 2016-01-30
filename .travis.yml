@@ -13,12 +13,13 @@ before_install:
 - cp ssh_config ~/.ssh/config
 - git config --global user.name "Waydrow"
 - git config --global user.email Waydrow@163.com
+- git clone -b gh-pages git@github.com:Waydrow/My-Blog.git .deploy_git
 install:
 - npm install hexo-cli -g
 - npm install
 - npm install hexo-generator-feed --save
-- npm install hexo-deployer-git --save
 - npm install hexo-generator-sitemap --save
+- npm install hexo-deployer-git --save
 script:
 - hexo clean
 - hexo g
