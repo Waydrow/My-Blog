@@ -1,6 +1,15 @@
-title: 分类
-date: 2015-08-06 10:10:25
-type: "categories"
-comments: false
+---
+title: categories
+date: 2016-02-01 20:57:21
 ---
 
+<div class="category-wrap">
+	<% if (site.categories.length){ %>
+  		<div class="widget-wrap">
+    		<h3 class="widget-title">Categories</h3>
+    		<div class="widget">
+     			 <%- list_categories({show_count: theme.show_count}) %>
+    		</div>
+  		</div>
+	<% } %>
+</div>
