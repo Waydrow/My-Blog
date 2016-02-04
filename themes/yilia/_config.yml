@@ -25,6 +25,9 @@ subnav:
 
 rss: /atom.xml
 
+# Copyright info. of post | 文末版权信息
+copyright: true
+
 # Content
 excerpt_link: more
 fancybox: true
