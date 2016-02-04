@@ -2,9 +2,9 @@
 menu:
   主页: /
   文章: /archives
+  分类: /tags
   # 随笔: /tags/随笔
   杂谈: /categories/杂谈
-  # 分类: /categories
   关于: /about
 
 # SubNav

@@ -24,6 +24,124 @@
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
       <% } else { %>
+        <% if (page.path === "tags/index.html"){ %>
+          <hr>
+          <%- list_categories({
+              depth: 1,
+          }) %>
+          <p id="count">
+          已有<span id="categoriesLength"></span>个分类，
+          共计<span id="tagsLength"></span>个标签。
+          </p>
+          <script src="/js/tagcanvas.js" type="text/javascript"></script>
+          <div class="tags" id="myTags">
+              <canvas width="350" height="350" id="my3DTags">
+                <p>Anything in here will be replaced on browsers that support the canvas element</p>
+              </canvas>
+          </div>
+          <div class="tags" id="tags">
+            <ul>
+              <%- tagcloud({
+                  min_font: 16,
+                  max_font: 35,
+                  amount: 999,
+                  color: true,
+                  start_color: 'blue',
+                  end_color: 'red',
+              }) %>
+            </ul>
+          </div>
+          <style type="text/css">
+            p#count {
+                margin-bottom: 20px;
+            }
+            .category-list {
+                margin-top: 25px !important;
+            }
+            .category-list li, .tags li{
+                display: inline;
+                font-size: 1.2em;
+                margin-right: 1em;
+                line-height: 60px;
+                border: 1px solid lightgray;
+                padding: 6px;
+            }
+            .category-list a {
+                color: gray;
+            }
+            .category-list li:hover {
+                background-color: #E4F5F3;
+                color: gray;
+            }
+            .category-list li:hover a{
+                color: gray;
+                text-decoration: none;
+            }
+            .category-list-count {
+                margin-left: 2px;
+                font-size: .9em;
+            }
+            .article-entry ul li:before{
+                display: none;
+            }
+            .article-inner  {
+                text-align: center;
+            }
+            .article-meta {
+                display: none;
+            }
+            .article-header {
+                padding-right: 35px;
+            }
+            #container .article .article-title {
+                padding-right: 0;
+            }
+            .tags {
+                max-width: 40em;
+                margin: 2em auto;
+                margin-top: 0em;
+            }
+            .tags a {
+                margin-right: 1em;
+                line-height: 65px;
+                border-bottom: 1px solid gray;
+            }
+            .tags a:hover {
+                font-weight: bold;
+                text-decoration: none;
+            }
+            .category-list-child {
+                display: none;
+            }
+          </style>
+          <!-- Count tags and categories -->
+          <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+          <script type="text/javascript">
+            window.onload = function() {
+              try {
+                TagCanvas.Start('my3DTags','tags',{
+                  textFont: 'Microsoft YaHei',
+                  textColour: null,
+                  outlineColour: '#0043FF',
+                  weight: true,
+                  reverse: true,
+                  depth: 0.8,
+                  maxSpeed: 0.05,
+                  bgRadius: 1,
+                  freezeDecel: true
+                });
+              } catch(e) {
+                // something went wrong, hide the canvas container
+                document.getElementById('myTags').style.display = 'none';
+              }
+            };
+          </script>
+          <script>
+            $('#count').appendTo('.count');
+            $("#categoriesLength").text($(".category-list-item").length);
+            $("#tagsLength").text(($(".tags a").length));
+          </script>
+      <% } %>
         <%- post.content %>
       <% } %>
     </div>

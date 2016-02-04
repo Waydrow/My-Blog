@@ -3,6 +3,7 @@ title: 用 Travis CI 自动部署Hexo博客到 GitHub (二)
 date: 2016-02-01 21:51:22
 categories: 博客
 tags:
+- 持续集成
 - travis ci
 - Hexo
 ---
