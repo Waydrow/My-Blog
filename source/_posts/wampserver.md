@@ -1,6 +1,6 @@
 title: Windows下WampServer初体验
 date: 2015-11-10 12:18:02
-categories: 技术
+categories: 技术漫谈
 tags:
 - WampServer
 - 服务器
