@@ -243,12 +243,33 @@
   }
   h2{
     margin-top: 20px;
-    font-weight: 400;
-    color: #574C4C;
+    font-weight: bold;
+    color: #88acdb;
+    text-align: center;
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
+    &:before {
+      content: "—— ";
+    }
+    &:after {
+      content: " ——";
+    }
   }
-  h3,h4,h5,h6{
+  h2:hover {
+    color: #E8A5A5;
+  }
+  h3 {
+    margin-top: 20px;
+    font-weight: 400;
+    color: #438aac;
+    padding: 0.2em 0 0.2em 0.5em;
+    border: 1px solid #d2e8fa;
+    background: rgba(243,248,253,.6);
+    &:after {
+      content: " >"
+    }
+  }
+  h4,h5,h6{
     margin-top: 20px;
     font-weight: 300;
     color: #574C4C;
