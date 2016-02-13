@@ -11,7 +11,7 @@ tags:
 &emsp;Activity是Android SDK中`Activity`类的一个具体实例，负责管理用户与信息屏的交互。在一个应用程序中通常由多个Activity构成，在`Manifest.xml`中会指定一个主的Activity, 如下所示
 `<action android:name="android.intent.action.MAIN" />`  
 &emsp;当程序第一次运行时用户就会看这个Activity，这个Activity可以通过启动其他的Activity进行相关操作。当启动其他的Activity时这个当前的这个Activity将会停止，新的Activity将会压入栈中，同时获取用户焦点，这时就可在这个Activity上操作了。都知道栈是先进后出的原则，那么当用户按Back键时，当前的这个Activity销毁，前一个Activity重新恢复。
-
+<!-- more -->
 ## Activity的生命周期
 话不多说，先上图  
 ![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Factivity-life.gif)  
