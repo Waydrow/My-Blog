@@ -164,5 +164,5 @@ public class MainActivity extends AppCompatActivity {
 [两分钟彻底让你明白Android Activity生命周期(图文)!](http://blog.csdn.net/android_tutor/article/details/5772285)  
 [Android四大组件之——Activity的生命周期 (图文详解)](http://www.cnblogs.com/JohnTsai/p/4052676.html)  
 
-如有问题，欢迎在直接下方讨论留言  
+如有问题，欢迎直接在下方讨论留言  
 我的邮箱为：<Waydrow@163.com>
