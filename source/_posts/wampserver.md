@@ -18,10 +18,10 @@ tags:
 ><http://pan.baidu.com/s/1ntxnK4x>
 
 安装时很简单，一直下一步next就好了。以下有两点可能困扰大家的地方
-1. ![](/images/20151110/wamp-install1.png)
+![](/images/20151110/wamp-install1.png)  
 上图为选择默认浏览工具：安装过程中会提示要选择默认浏览工具，如上图所示，不过要注意哦，这个浏览工具指的可不是浏览器哦，它指的是windows的浏览器，也就是explorer.exe，默认的就是这个，直接点击“打开”就可以了。
 
-2. ![](/images/20151110/wamp-install2.png)
+![](/images/20151110/wamp-install2.png)  
 如上图所示，会提示一个输入管理员邮箱以及邮箱SMTP服务器的窗口，这个可以自己填写一下，要可以直接下一步，不影响安装
 
 安装完成后打开`WampServer`,在任务栏中会出现wampserver图标，右键可选择语言
