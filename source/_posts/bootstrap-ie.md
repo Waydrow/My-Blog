@@ -27,7 +27,7 @@ tags:
 ## 使用meta标签来调节浏览器的渲染方式
 ### IE 兼容模式
 Bootstrap 不支持 IE 古老的兼容模式。为了让 IE 浏览器运行最新的渲染模式下，建议将此 <meta> 标签加入到你的页面中：
-><meta http-equiv="X-UA-Compatible" content="IE=edge">
+> `<meta http-equiv="X-UA-Compatible" content="IE=edge">`
 
 按 F12 键打开 IE 的调试工具，就可以看到 IE 当前的渲染模式是什么。
 此 meta 标签被包含在了所有 Bootstrap 文档和实例页面中，为的就是在每个被支持的 IE 版本中拥有最好的绘制效果。
@@ -36,7 +36,7 @@ Bootstrap 不支持 IE 古老的兼容模式。为了让 IE 浏览器运行最�
 国内浏览器厂商一般都支持兼容模式（即 IE 内核）和高速模式（即 webkit 内核），不幸的是，所有国产浏览器都是默认使用兼容模式，这就造成由于低版本 IE （IE8 及以下）内核让基于 Bootstrap 构建的网站展现效果很糟糕的情况。幸运的是，国内浏览器厂商逐渐意识到了这一点，某些厂商已经开始有所作为了！
 
 将下面的 <meta> 标签加入到页面中，可以让部分国产浏览器默认采用高速模式渲染页面：
-><meta name="renderer" content="webkit">
+> `<meta name="renderer" content="webkit">`
 
 目前只有360浏览器支持此 <meta> 标签。希望更多国内浏览器尽快采取行动、尽快进入高速时代！
 
