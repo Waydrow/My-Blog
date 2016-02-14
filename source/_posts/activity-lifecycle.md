@@ -1,11 +1,13 @@
 ---
 title: Android开发：Activity 生命周期详解
-date: 2016-02-13 19:33:26
+date: {}
 categories: Android
-tags:
-- Android
-- Activity
+tags: 
+  - Android
+  - Activity
+published: true
 ---
+
 
 ## 什么是Activity
 &emsp;Activity是Android SDK中`Activity`类的一个具体实例，负责管理用户与信息屏的交互。在一个应用程序中通常由多个Activity构成，在`Manifest.xml`中会指定一个主的Activity, 如下所示
@@ -162,5 +164,5 @@ public class MainActivity extends AppCompatActivity {
 [两分钟彻底让你明白Android Activity生命周期(图文)!](http://blog.csdn.net/android_tutor/article/details/5772285)  
 [Android四大组件之——Activity的生命周期 (图文详解)](http://www.cnblogs.com/JohnTsai/p/4052676.html)  
 
-如有问题，欢迎在下方直接讨论留言  
-我的邮箱为：<Waydrow@163.com> 
+如有问题，欢迎直接在下方讨论留言  
+我的邮箱为：<Waydrow@163.com>
