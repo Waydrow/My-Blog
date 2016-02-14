@@ -1,11 +1,10 @@
 ---
 title: Android开发：Activity 生命周期详解
-date: {}
+date: 2016-02-13 22:04:15
 categories: Android
 tags: 
-  - Android
-  - Activity
-published: true
+- Android
+- Activity
 ---
 
 
