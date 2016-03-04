@@ -10,13 +10,23 @@ comments: true
 [使用Hexo在Github上搭建你的博客](http://blog.waydrow.com/2015/08/14/%E4%BD%BF%E7%94%A8Hexo%E5%9C%A8Github%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2/)
 &emsp;感谢**github**, **hexo**, **node.js**, **git**等技术支持，以及__Yilia__主题，自己又简单修改了一下。再次致谢！
 
+## 关于本博客
+本博客搭建于`2015年8月5日`，使用Hexo
+托管在`Github`,链接为: <https://github.com/Waydrow/My-Blog>
+
 ## 关于我
-CS学生一枚，
-生命不息，折腾不止！
+- CS学生一枚
+- 前端程序猿
+- 刚入门的Android小白
+- 不合格的Designer
+- Linux爱好者
+- 热衷自由、开源的互联网
+- Google爱好者
 
 ## 方向
 - Web前端
 - 安卓开发
+- Design
 
 ## 兴趣爱好
 喜欢coding，善于折腾
@@ -28,6 +38,7 @@ CS学生一枚，
 - Java
 - HTML/CSS/JS
 - Markdown
+- PhotoShop
 
 ## 音乐分享
 <div align="center" style="margin-top: 30px;">
