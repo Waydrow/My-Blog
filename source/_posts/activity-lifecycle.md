@@ -158,6 +158,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 后记
 大家还可以尝试旋转屏幕、锁屏等后的Activity的状态，本文就不一一列举了
+我的学习代码托管在Github上，链接为: [点我](https://github.com/Waydrow/Android-Learning/tree/master/ActivityLiftCircle)
 ### 参考资料
 [Activity详解 (生命周期、以各种方式启动Activity、状态保存，完全退出等)](http://blog.csdn.net/tangcheng_ok/article/details/6755194)  
 [两分钟彻底让你明白Android Activity生命周期(图文)!](http://blog.csdn.net/android_tutor/article/details/5772285)  
