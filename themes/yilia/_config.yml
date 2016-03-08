@@ -58,7 +58,7 @@ tagcloud: true
 #是否开启友情链接
 #不开启——
 #friends: false
-#开启——
+#开启—— 
 friends:
   Ymming: http://blog.ymming.com/
   执凉: http://blog.lzkzhiliang.com/
