@@ -1,9 +1,15 @@
 ---
-title: Android常用控件
+title: Android常用控件(下拉列表，日期时间选择器，多选单选框)
 date: 2016-03-10 21:47:18
 categories: Android
 tags:
 - Android
+- Spinner
+- DatePickerDialog
+- TimePickerDialog
+- RadioGroup
+- RadioButton
+- CheckBox
 ---
 
 ### 前言
