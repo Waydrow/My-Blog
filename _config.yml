@@ -74,6 +74,11 @@ theme: yilia
 plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
+- hexo-generator-tag
+- hexo-generator-category
+- hexo-renderer-less
+- hexo-renderer-ejs
+- hexo-generator-index
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
