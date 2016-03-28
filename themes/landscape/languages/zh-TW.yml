@@ -9,6 +9,7 @@ comment: 留言
 archive_a: 彙整
 archive_b: 彙整：%s
 page: 第 %d 頁
+<<<<<<< HEAD
 recent_posts: 最新文章
 newer: Newer
 older: Older
@@ -17,3 +18,6 @@ powered_by: Powered by
 rss_feed: RSS Feed
 category: Category
 tag: Tag
+=======
+recent_posts: 最新文章
+>>>>>>> devBlog/master
