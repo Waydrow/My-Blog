@@ -67,7 +67,7 @@
 	}
 
 	@media screen and (max-width:1040px) {
-		
+
 	}@media screen and (max-width:800px) {
 		@import "_partial/mobile"
 	}
@@ -302,6 +302,7 @@
 			border-radius: 3px;
 			padding: 5px;
 			display: block;
+			float: left;
 			&:hover{
 				background: #88acdb;
 				color: #fff;
@@ -325,4 +326,14 @@
 
 #disqus_thread{
 	padding: 0 40px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1; /*IE/7/6*/
 }
