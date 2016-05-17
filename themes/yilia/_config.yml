@@ -58,7 +58,7 @@ tagcloud: true
 #是否开启友情链接
 #不开启——
 #friends: false
-#开启—— 
+#开启——
 friends:
   Ymming: http://blog.ymming.com/
   执凉: http://blog.lzkzhiliang.com/
@@ -70,9 +70,10 @@ friends:
   Fevering: http://fevering.cn
   魏来: http://weilai5432.github.io/
   小忆: http://www.smallyi.com
+  wixy: http://wixy.top/
 
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
-#开启—— 
+#开启——
 aboutme: 生命不息，折腾不止！
