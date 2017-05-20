@@ -46,7 +46,7 @@ highlight:
 
 # Category & Tag
 default_category: uncategorized
-category_map: 
+category_map:
 tag_map:
 
 # Date / Time format
@@ -85,7 +85,7 @@ deploy:
 avatar: /images/avatar.png  #个人头像
 
 # Disqus  #评论系统
-# disqus_shortname: blogWaydrow
+disqus_shortname: blogwaydrow
 # duoshuo_shortname: waydrow
 
 # Social links
