@@ -1,6 +1,7 @@
 ---
 title: 你好 Disqus, 再见多说!
 date: 2017-05-20 15:24:26
+toc: true
 categories: 博客
 tags:
 ---

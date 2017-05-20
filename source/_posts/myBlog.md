@@ -6,13 +6,16 @@ tags:
 - Blog
 ---
 
-## **2016-02-05** 添加copyright info信息
+## **2017-05-20** 评论系统迁移到 Disqus
+由于多说停止服务, 那就迁移咯
+
+## **2016-02-05** 添加 copyright info 信息
 在每篇文章后加入版权信息
 <!-- more -->
 ## **2016-02-04** 添加分类及标签云
-添加分类、标签云页面，自定义标签云样式，用到了[TagCanvas](http://www.goat1000.com/tagcanvas.php)
+添加分类、标签云页面，自定义标签云样式，用到了 [TagCanvas](http://www.goat1000.com/tagcanvas.php)
 
-## **2016-02-01** `Travis CI`自动部署博客到`github`
+## **2016-02-01** Travis CI 自动部署博客到 Github
 在经历了14次失败之后，终于成功配置了travis ci的环境，从此以后，写完博客只需`git push`一下就好了
 
 ## **2016-01-26** 顶部加载进度条

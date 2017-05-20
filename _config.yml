@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Waydrow's blog
-subtitle: 不知名的程序猿+Web前端技术宅
-description: 不知名的程序猿+Web前端技术宅
+title: Waydrow
+subtitle: 为着美好生活而努力奋斗的程序猿
+description: 为着美好生活而努力奋斗的程序猿
 author: Waydrow
-language: zh-Hans
+language: zh-CN
 email: Waydrow@163.com
 timezone:
 
@@ -68,7 +68,8 @@ pagination_dir: page
 
 # theme: hexo-theme-hueman
 # theme: landscape
-theme: yilia
+# theme: yilia
+theme: maupassant
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -85,7 +86,7 @@ deploy:
 avatar: /images/avatar.png  #个人头像
 
 # Disqus  #评论系统
-disqus_shortname: blogwaydrow
+# disqus_shortname: blogwaydrow
 # duoshuo_shortname: waydrow
 
 # Social links
