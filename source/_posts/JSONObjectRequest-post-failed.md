@@ -9,7 +9,6 @@ tags:
 	- http
 ---
 
-## 前言
 这段时间一直在忙比赛，开发一个Android应用。转眼间博客竟然这么久没更新了，罪过罪过...这两天在用`Volley`框架，但是当我使用`JsonObjectRequest`发送`Post`请求时，竟然失效了。服务器一直响应失败，搞了半天，在StackOverFlow上找到了类似的问题，终于解决掉了。
 <!-- more -->
 

@@ -7,7 +7,6 @@ tags:
 - mysql
 ---
 
-## 前言
 以前用mysql的时候, 一直用的是WAMP集成开发环境, 前两天心血来潮, 打算自己配一下环境。Apache, php都没有什么问题, 很顺利的就装好了。但是到了Mysql这, 出了点小小的问题, 装好之后发现无法通过`notifier`工具停止服务, 提示`the service MySQL56 was not found in the windows services`。不甘心的我去windows的services里找了下, 发现明明存在`MySQL56`的服务。一脸懵逼。。。
 
 <!-- more -->

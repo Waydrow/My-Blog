@@ -9,7 +9,6 @@ tags:
 	- listView
 ---
 
-### 前言
 在极客学院的Android学习中，发现其下拉刷新组件用的是比较老的组件，现在Google官方出的是`SwipeRefreshLayout`，借此机会学习了一下。先附上图:
 
 <!-- more -->
