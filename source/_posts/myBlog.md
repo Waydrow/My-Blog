@@ -2,8 +2,8 @@ title: 我的博客日志——主题更新
 date: 2015-11-13 21:00:13
 categories: 博客
 tags:
-- Hexo
-- Blog
+- hexo
+- blog
 ---
 
 ## **2017-05-20** 评论系统迁移到 Disqus

@@ -1,11 +1,11 @@
 ---
 title: 用 Travis CI 自动部署Hexo博客到 GitHub (二)
 date: 2016-02-01 21:51:22
+toc: true
 categories: 博客
 tags:
-- 持续集成
 - travis ci
-- Hexo
+- hexo
 ---
 
 上文简单介绍了一些基本的概念和我们的实现思路，思路明确后，具体操作也就不难理解了
@@ -102,9 +102,9 @@ branches:
   only:
   - master #这个分支应当使用自己的 Dev repo
 
-before_install: 
+before_install:
 #注意将xxxx内容修改为你之前获得的解密参数
-- openssl aes-256-cbc -K $encrypted_xxxxxxxxxx_key -iv $encrypted_xxxxxxxxxx_iv 
+- openssl aes-256-cbc -K $encrypted_xxxxxxxxxx_key -iv $encrypted_xxxxxxxxxx_iv
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa //修改目录权限
 - eval $(ssh-agent)//将密钥加入系统

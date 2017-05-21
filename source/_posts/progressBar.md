@@ -1,13 +1,14 @@
 ---
 title: 为Hexo博客添加顶部加载条
 date: 2016-01-26 13:42:20
+toc: true
 categories: 博客
 tags:
-- Blog
-- CSS
+- blog
+- css
 ---
 
-## 前言 
+## 前言
 &emsp;有时候会看到有的网页加载时上方出现进度条，一直想加到自己的博客上来，今天折腾了一番，终于成功了，记录下来。
 ## 开始制作
 我使用的是[Pace](http://github.hubspot.com/pace/), 不过听别人说[NProgress](http://ricostacruz.com/nprogress/)更好用，改天试下

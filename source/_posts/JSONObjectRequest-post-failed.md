@@ -1,12 +1,12 @@
 ---
 title: Volley使用JsonObjectRequest发送Post请求失败
 date: 2016-03-25 21:04:46
+toc: true
 categories: Android
 tags:
-	- Android
-	- Volley
-	- JsonObjectRequest
-	- Http
+	- android
+	- volley
+	- http
 ---
 
 ## 前言
@@ -45,7 +45,7 @@ mqueue.add(jsObjRequest);
 
 ### 第一次修改
 
-经过google一翻查找，发现遇到这个问题的不只我一个，心情莫名的激动起来2333。原来有这么多人掉进了这个坑里。看了某大神的博客，发现了原来我那种写法是错误的。改进如下: 
+经过google一翻查找，发现遇到这个问题的不只我一个，心情莫名的激动起来2333。原来有这么多人掉进了这个坑里。看了某大神的博客，发现了原来我那种写法是错误的。改进如下:
 
 ```java
 RequestQueue mqueue = Volley.newRequestQueue(getApplicationContext());
@@ -76,7 +76,7 @@ mqueue.add(jsObjRequest);
 `getParams`方法并能在些这样使用，需要new一个`JSONObject`，将需要发送的参数放进这里，然后Post出去。(的确是个好主意)马上去试下，结果发现还是不管用...
 
 ### done
-最终在StackOverFlow上找到了解决方案。还是这个靠谱啊!!!泪奔，，，  
+最终在StackOverFlow上找到了解决方案。还是这个靠谱啊!!!泪奔，，，
 
 #### 工具类 CustomRequest.java
 
@@ -141,7 +141,7 @@ public class CustomRequest extends Request<JSONObject> {
 }
 ```
 
-然后在自己代码中发送POST请求时，样例如下: 
+然后在自己代码中发送POST请求时，样例如下:
 
 ```java
 RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
@@ -150,7 +150,7 @@ RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
 	hashMap.put("username",num);
 	hashMap.put("password",password);
 
-	CustomRequest jsonObjectRequest = new CustomRequest(Request.Method.POST, 
+	CustomRequest jsonObjectRequest = new CustomRequest(Request.Method.POST,
 		url, hashMap, new Response.Listener<JSONObject>() {
 	    @Override
 	    public void onResponse(JSONObject jsonObject) {
@@ -166,9 +166,9 @@ requestQueue.add(jsonObjectRequest);
 ```
 
 ## 后记
-终于解决了，，普天同庆，顿时觉得整个世界都变好了。。  
-不过话说回来，仔细想一下，这个问题产生的原因可能不是本身代码的问题。  
-我的第二个方案代码是Volley官方资料上的使用方法，按理说不应该有问题。那么既然客户端这边没有问题，只能是服务器端的事了。猜想可能是由于服务器端不支持响应json格式的请求，才出现了请求失败的问题。不过到底是不是这样还有待考量。准备有空了试一下，在服务器端做下处理。  
+终于解决了，，普天同庆，顿时觉得整个世界都变好了。。
+不过话说回来，仔细想一下，这个问题产生的原因可能不是本身代码的问题。
+我的第二个方案代码是Volley官方资料上的使用方法，按理说不应该有问题。那么既然客户端这边没有问题，只能是服务器端的事了。猜想可能是由于服务器端不支持响应json格式的请求，才出现了请求失败的问题。不过到底是不是这样还有待考量。准备有空了试一下，在服务器端做下处理。
 
-如有问题欢迎在正文评论留言，也可直接联系我。  
+如有问题欢迎在正文评论留言，也可直接联系我。
 邮箱: <waydrow@163.com>

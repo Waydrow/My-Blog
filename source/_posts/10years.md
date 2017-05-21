@@ -1,6 +1,7 @@
 ---
 title: Teach Yourself Programming in Ten Years
 date: 2016-01-26 09:23:20
+toc: true
 categories: 杂谈
 tags:
 - coding
@@ -103,7 +104,7 @@ Approximate timing for various operations on a typical PC:
 - **Scheme**: [How to Design Programs (Felleisen et al.)](http://www.amazon.com/gp/product/0262062186) is one of the best books on how to actually design programs in an elegant and functional way.
 - **Python**: [Python Programming: An Intro to CS (Zelle)](http://www.amazon.com/gp/product/1887902996) is a good introduction using Python.
 - **Python**: Several online [tutorials](http://wiki.python.org/moin/BeginnersGuide) are available at [Python.org](http://python.org/).
-- **Oz**: [Concepts, Techniques, and Models of Computer Programming (Van Roy & Haridi)](http://www.amazon.com/gp/product/0262220695) is seen by some as the modern-day successor to Abelson & Sussman. It is a tour through the big ideas of programming, covering a wider range than Abelson & Sussman while being perhaps easier to read and follow. It uses a language, Oz, that is not widely known but serves as a basis for learning other languages. 
+- **Oz**: [Concepts, Techniques, and Models of Computer Programming (Van Roy & Haridi)](http://www.amazon.com/gp/product/0262220695) is seen by some as the modern-day successor to Abelson & Sussman. It is a tour through the big ideas of programming, covering a wider range than Abelson & Sussman while being perhaps easier to read and follow. It uses a language, Oz, that is not widely known but serves as a basis for learning other languages.
 
 ## **Notes**
 

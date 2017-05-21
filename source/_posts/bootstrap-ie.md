@@ -1,9 +1,10 @@
 title: 如何让bootstrap兼容ie8+
 date: 2015-11-10 10:26:43
-categories: Web前端
+toc: true
+categories: 编程
 tags:
-- Web前端
-- Boostrap
+- web
+- boostrap
 ---
 
 ## 前言
@@ -16,7 +17,7 @@ tags:
 ## DOCTYPE
 有些人可以不太注意html开头的doctype声明，其实这是非常重要的。DOCTYPE会告诉浏览器使用什么样的HTML或XHTML规范来解析HTML文档，具体会影响：
 >标记、attributes 、properties的约束规则
->对浏览器的渲染模式产生影响，不同的渲染模式会影响到浏览器对于CSS 代码甚至 JavaScript 脚本的解析  
+>对浏览器的渲染模式产生影响，不同的渲染模式会影响到浏览器对于CSS 代码甚至 JavaScript 脚本的解析
 
 所以千万不要忘记在html文档首先键入：
 ```

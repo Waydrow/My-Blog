@@ -1,15 +1,16 @@
 ---
 title: Android SwipeRefreshLayout 下拉刷新组件的使用
 date: 2016-03-11 20:53:43
+toc: true
 categories: Android
 tags:
-	- Android
-	- SwipeRefreshLayout
-	- ListView
+	- android
+	- swipeRefreshLayout
+	- listView
 ---
 
 ### 前言
-在极客学院的Android学习中，发现其下拉刷新组件用的是比较老的组件，现在Google官方出的是`SwipeRefreshLayout`，借此机会学习了一下。先附上图: 
+在极客学院的Android学习中，发现其下拉刷新组件用的是比较老的组件，现在Google官方出的是`SwipeRefreshLayout`，借此机会学习了一下。先附上图:
 
 <!-- more -->
 
@@ -75,7 +76,7 @@ tags:
 是不是非常easy呢 ?　
 
 ### 后记
-在创建`ListView`过程中, 我使用的是`ArrayAdapter`适配器, 还有 :  
+在创建`ListView`过程中, 我使用的是`ArrayAdapter`适配器, 还有 :
 
 - SimpleAdapter
 - SimpleCursorAdapter

@@ -1,6 +1,7 @@
 ---
 title: 记一次有趣的 2017 ACM 山东省省赛经历
 date: 2017-05-08 21:27:52
+toc: true
 categories: 编程
 tags:
 - ACM

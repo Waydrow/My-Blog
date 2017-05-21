@@ -1,9 +1,10 @@
 ---
 title: c++输入隐藏密码的实现
 date: 2016-12-10 22:03:41
+toc: true
 categories: 编程
 tags:
-- C++
+- c++
 ---
 
 ## 前言

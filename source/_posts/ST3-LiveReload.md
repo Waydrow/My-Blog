@@ -1,9 +1,10 @@
 title: Sublime Text3 无法使用LiveReload插件的解决方法
 date: 2015-08-16 16:10:40
-categories: 技术漫谈
+toc: true
+categories: 编程
 tags:
 - sublime
-- Web前端
+- web
 ---
 
 ## 问题更新
@@ -39,9 +40,9 @@ sublime text3的Packages目录中，此文件夹是隐藏文件夹，默认地�
 **Linux**
 
 ```
-cd ~/.config/sublime-text-3/Packages  
-rm -rf LiveReload  
-git clone https://github.com/Grafikart/ST3-LiveReload.git LiveReload  
+cd ~/.config/sublime-text-3/Packages
+rm -rf LiveReload
+git clone https://github.com/Grafikart/ST3-LiveReload.git LiveReload
 ```
 
 接下来，打开sublime text 3
@@ -49,7 +50,7 @@ git clone https://github.com/Grafikart/ST3-LiveReload.git LiveReload
 **windows**
 `preferences -> Packge Settings -> LiveReload -> Settings - User`
 ![](/images/20150816/sublime-livereload.jpg)
-**Linux** 
+**Linux**
 `preferences -> Packge Settings -> LiveReload -> Settings - Default`
 输入以下内容保存即可
 
@@ -64,7 +65,7 @@ git clone https://github.com/Grafikart/ST3-LiveReload.git LiveReload
 
 >有很多教程是要每次打开sublime后，通过`package control`手动启用上述组件，这样也是可以的，但总归麻烦了一些，可以直接添加上述代码，使之默认加载。
 
-## 最后 
+## 最后
 例如，打开某个html文件，在chrome中打开，点击LiveReload图标，可以看到中心由空心圆点变为实心圆点，代表启动成功，这时返回sublime中，可以看到左下角出现LiveReload连接成功的提示
 ![](/images/20150816/sublime-livereload2.jpg)
 最后，开始享受敲代码的愉悦感吧！

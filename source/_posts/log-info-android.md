@@ -1,22 +1,23 @@
 ---
 title: Android日志系统
 date: 2016-03-03 22:53:28
+toc: true
 categories: Android
 tags:
-- Android
+- android
 ---
 
 ### 前言
 此文为个人学习记录所用
 
 ### 使用日志API
-#### Java : 
+#### Java :
 - 错误日志-> `System.err.println()`
 - 普通日志-> `System.out.println()`
 
 <!-- more -->
 
-#### Android : 
+#### Android :
 - 错误信息-> `Log.e()`
 - 警告信息-> `Log.w()`
 - 普通信息-> `Log.i()`
@@ -25,7 +26,7 @@ tags:
 
 >由下到上 优先级升高
 
-可添加标签，如: 
+可添加标签，如:
 
 ```java
     private static String TAG = "MainActivity";
@@ -40,4 +41,4 @@ tags:
 - 根据日志内容
 
 ### 使用DDMS查看日志
-Android Device Monitor 
+Android Device Monitor

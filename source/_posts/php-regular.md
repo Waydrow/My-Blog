@@ -1,7 +1,8 @@
 ---
 title: 如何用正则表达式匹配中文
 date: 2016-04-26 15:51:01
-categories: 技术漫谈
+toc: true
+categories: 编程
 tags:
 - php
 - 正则

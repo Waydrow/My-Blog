@@ -1,12 +1,13 @@
 title: 使用Hexo在Github上搭建你的博客
 date: 2015-08-14 16:53:00
+toc: true
 categories: 博客
 tags:
-- Blog
-- Hexo
-- Markdown
+- blog
+- hexo
+- markdown
 ---
-	
+
 ## 前言
 自从投身于互联网学习的怀抱中后，一直想搭建一个属于自己的个人博客。了解过WordPress
 ，不过因为不懂服务器的知识只得暂时作罢;也看过csdn、博客园等，方便是方便，不过主题样式无法个人定制，这对于美工出身的我简直无法忍受。听朋友说起hexo，并且能够部署在github上，甚是方便，照着教程，一步一步搭建了这个博客。在搭建博客过程中遇到了很多问题，写下这篇教程的原因就是希望能够给需要的人些许帮助。
@@ -15,8 +16,8 @@ tags:
 __Hexo__ 是一个快速、简洁且高效的博客框架。出自台湾大学生[tommy351](http://twitter.com/tommy351) 之手，是一个基于Node.js的静态博客程序。Hexo 使用 [Markdown](http://daringfireball.net/projects/markdown/)（关于markdown在后面会有更详细的介绍）或其他渲染引擎解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 
 ## 开发环境
-### 安装[Node.js](https://nodejs.org/)  
-直接到官网下载安装即可 或 通过 [nvm](https://github.com/creationix/nvm)  
+### 安装[Node.js](https://nodejs.org/)
+直接到官网下载安装即可 或 通过 [nvm](https://github.com/creationix/nvm)
 	cURL:
 	```bash
 	$ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
@@ -25,11 +26,11 @@ Wget:
 	```bash
 	$ wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
 	```
-安装完成后，重启终端并执行下列命令即可安装 Node.js  
+安装完成后，重启终端并执行下列命令即可安装 Node.js
 	```bash
 	$ nvm install 0.10
 	```
-### 安装[Git](http://git-scm.com/)  
+### 安装[Git](http://git-scm.com/)
 - windows: 下载并安装[Git](https://git-scm.com/download/win)
 - Mac: 使用 [Homebrew](http://mxcl.github.com/homebrew/), [MacPorts](http://www.macports.org/) 或下载 [安装程序](http://sourceforge.net/projects/git-osx-installer/) 安装
 - Linux (Ubuntu, Debian)：`sudo apt-get install git-core`
@@ -166,7 +167,7 @@ $ hexo new "我的第一篇博文"
 >例如`![](/images/example.jpg)`
 
 ![](/images/20150814/myfirstblog3.jpg)
-写完之后保存，本地启动服务器`hexo server`   
+写完之后保存，本地启动服务器`hexo server`
 在浏览器中打开`http://localhost:4000` 即可看到我们刚刚写完的文章已经发表了,页面右侧还会自动加入新的目录和标签等，是不是非常简单！！
 ![](/images/20150814/myfirstblog2.jpg)
 
@@ -182,7 +183,7 @@ $ hexo generate
 - 注册github帐号
 - 建立一个仓库，名为[your_user_name.github.io]
 >已有github帐号的请忽略第一步
- 
+
 编辑配置文件_config.yml，在deploy部分，设置github的项目地址
 ```
 deploy:
@@ -269,7 +270,7 @@ $ npm install hexo-generator-feed
 启动服务器，打开`http://localhost:4000/atom.xml`，就可以看到RSS已经生效了。
 
 ### Sitemap站长地图
-同RSS一样，直接安装 
+同RSS一样，直接安装
 ```bash
 $ npm install hexo-generator-sitemap
 ```
@@ -287,7 +288,7 @@ $ hexo new page "about"
 
 ### 统计
 由于 Google Analytics 偶尔会被墙，可以用百度统计，以Next主题为例，
-去[百度统计](http://tongji.baidu.com)申请一个帐号，添加你的博客地址 
+去[百度统计](http://tongji.baidu.com)申请一个帐号，添加你的博客地址
 在代码获取界面
 ![](/images/20150814/baidutongji.jpg)
 ?后面的这串字母加数字即是你的百度分析ID，复制下来，

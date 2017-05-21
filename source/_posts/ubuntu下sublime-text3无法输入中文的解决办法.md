@@ -1,5 +1,6 @@
 title: ubuntu下sublime text3无法输入中文的解决办法
 date: 2015-12-07 21:32:47
+toc: true
 categories: Linux
 tags:
 - linux
@@ -163,7 +164,7 @@ Exec=bash -c "LD_PRELOAD=/opt/sublime_text/libsublime-imfix.so exec /opt/sublime
 ```
 Exec=/opt/sublime_text/sublime_text --command new_file
 ```
-修改为  
+修改为
 
 ```
 Exec=bash -c "LD_PRELOAD=/opt/sublime_text/libsublime-imfix.so exec /opt/sublime_text/sublime_text --command new_file"

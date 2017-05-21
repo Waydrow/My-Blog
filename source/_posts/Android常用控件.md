@@ -1,15 +1,10 @@
 ---
 title: Android常用控件(下拉列表，日期时间选择器，多选单选框)
 date: 2016-03-10 21:47:18
+toc: true
 categories: Android
 tags:
-- Android
-- Spinner
-- DatePickerDialog
-- TimePickerDialog
-- RadioGroup
-- RadioButton
-- CheckBox
+- android
 ---
 
 ### 前言
@@ -28,7 +23,7 @@ tags:
         android:id="@+id/spinner"
         android:layout_gravity="center_horizontal" />
 ```
-相应程序代码: 
+相应程序代码:
 
 ```java
 public class MainActivity extends AppCompatActivity {
@@ -43,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         s = (Spinner) findViewById(R.id.spinner);  //引用到该控件
         s.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,dataSource));  //生成下拉列表
-        
+
         /*添加列表选择监听器*/
         s.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -57,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-展示如下图:   
+展示如下图:
 ![](http://7xrmgx.com1.z0.glb.clouddn.com/2016-03-10_210102.png)
 
 ### 日期选择器
@@ -102,7 +97,7 @@ new TimePickerDialog(ChooseTime.this, new TimePickerDialog.OnTimeSetListener() {
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
 	android:layout_gravity="center_horizontal">
-	
+
 	<RadioButton
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
