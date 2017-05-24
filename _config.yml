@@ -13,7 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.waydrow.com/
+url: https://blog.waydrow.com
+enforce_ssl: blog.waydrow.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
