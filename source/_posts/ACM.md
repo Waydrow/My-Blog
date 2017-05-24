@@ -2,6 +2,7 @@
 title: 记一次有趣的 2017 ACM 山东省省赛经历
 date: 2017-05-08 21:27:52
 toc: true
+mathjax: true
 categories: 编程
 tags:
 - ACM
@@ -29,7 +30,11 @@ tags:
 ### 正式赛
 开始比赛后, 先发现了两道比较水的题, 一个是 G, n 次幂的累加和, 另一个是 I, 关于斐波那契数列的题, 很快我们成功AC了, 期间被 `long long` 坑了一次。
 
-接着做F, 看似一道非常简单的判断一元二次方程的解是否为整数的题, 没想到陷入了坑里。。我至今觉得这个题目的描述相当有问题....原题描述如下: `you are asked to judge whether the following statement is true: "For any x, if a*x^2 + b*x + c = 0, then x is an integer."` 我们当时的理解是若这个方程的解都是整数就是 `YES`, 否则 `NO`, 结果一直 WA, 最后这道题卡了我们将近四个小时, 才发现原来无解的情况需要输出 `YES`, 当时我的内心是崩溃的...
+接着做F, 看似一道非常简单的判断一元二次方程的解是否为整数的题, 没想到陷入了坑里。。我至今觉得这个题目的描述相当有问题....原题描述如下
+
+>you are asked to judge whether the following statement is true: "For any $x$, if $ax^2 + bx + c = 0$, then $x$ is an integer."
+
+我们当时的理解是若这个方程的解都是整数就是 `YES`, 否则 `NO`, 结果一直 WA, 最后这道题卡了我们将近四个小时, 才发现原来无解的情况需要输出 `YES`, 当时我的内心是崩溃的...
 
 还有一道 J 题, 被队友用贪心成功 A 掉了, 期间因为没有用 lld 而 WA 了一次。
 

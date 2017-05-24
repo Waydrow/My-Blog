@@ -45,6 +45,9 @@ highlight:
   auto_detect: false
   tab_replace:
 
+# Math
+mathjax: true
+
 # Category & Tag
 default_category: uncategorized
 category_map:

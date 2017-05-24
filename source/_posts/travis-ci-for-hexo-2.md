@@ -2,7 +2,7 @@
 title: 用 Travis CI 自动部署Hexo博客到 GitHub (二)
 date: 2016-02-01 21:51:22
 toc: true
-categories: 博客
+categories: Blog
 tags:
 - travis ci
 - hexo

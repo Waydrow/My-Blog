@@ -2,7 +2,7 @@
 title: 为Hexo博客添加顶部加载条
 date: 2016-01-26 13:42:20
 toc: true
-categories: 博客
+categories: Blog
 tags:
 - blog
 - css

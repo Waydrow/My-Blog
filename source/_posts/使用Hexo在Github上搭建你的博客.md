@@ -1,7 +1,7 @@
 title: 使用Hexo在Github上搭建你的博客
 date: 2015-08-14 16:53:00
 toc: true
-categories: 博客
+categories: Blog
 tags:
 - blog
 - hexo
