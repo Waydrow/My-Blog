@@ -41,10 +41,10 @@ CloudFlare 提示的时间需要等待几个小时, 但实际好像不需要这�
 
 接下来就可以使用 [https://blog.waydrow.com](https://blog.waydrow.com) 访问本站点了
 
-### 强制 HTTPS 跳转
-但是此时你会发现, 只能手动输入 https 才可以, 所以我们输入在博客的模板文件中使用 js 强制跳转
+### ~~强制 HTTPS 跳转~~
+~~但是此时你会发现, 只能手动输入 https 才可以, 所以我们输入在博客的模板文件中使用 js 强制跳转~~
 
-以我所使用的 maupassant 主题为例, 在 `layout\_partial\head.jade` 中添加如下代码
+~~以我所使用的 maupassant 主题为例, 在 `layout\_partial\head.jade` 中添加如下代码~~
 
 ```jade
 script(type='text/javascript').
@@ -53,7 +53,12 @@ script(type='text/javascript').
            window.location.protocol = "https";
 ```
 
-> 注意, 要添加在 head 标签中, 其他主题类似
+> ~~注意, 要添加在 head 标签中, 其他主题类似~~
+
+### 使用 CloudFlare 强制 HTTPS
+感谢 [Matriks](https://www.lyeec.me) 提供的方法, 可以不用在客户端强制 HTTPS 跳转, 直接在 CloudFlare 的 `Page Rules` 页面中添加一条规则。
+
+以本站为例, 填写 `http://blog.waydrow.com/*`, Setting 中选择 `Always Use HTTPS` 即可。
 
 ## 部署
 之后就可以愉快的使用 https 啦~
