@@ -47,7 +47,7 @@ layout: page
 - PhotoShop
 
 ## 联系方式
-- Email: waydrow AT 163 DOT com
+- Email: [wozhengzw@gmail.com](mailto:wozhengzw@gmail.com)
 - Github: [Waydrow](https://github.com/waydrow)
 
 ## 音乐分享
