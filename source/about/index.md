@@ -15,9 +15,8 @@ layout: page
 感谢 **github**, **hexo**, **node.js**, **git** 等技术支持，以及 __Maupassant__ 主题！
 
 ## 关于本博客
-- 本博客搭建于`2015年8月5日`，使用Hexo
+- 本博客搭建于`2015年8月5日`，使用 Hexo 驱动
 - 托管在`Github`，链接为：<https://github.com/Waydrow/My-Blog>
-- 使用 [CloudFlare](https://www.cloudflare.com/)，提供 Https 服务
 - 主题：[Maupassant](https://github.com/tufu9441/maupassant-hexo)
 
 ## 关于我

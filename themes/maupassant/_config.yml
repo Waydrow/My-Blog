@@ -55,6 +55,9 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
+  - page: history
+    directory: history/
+    icon: fa-book
   - page: about
     directory: about/
     icon: fa-user
@@ -104,13 +107,33 @@ links:
 
 timeline:
   - num: 1
-    word: 2014/06/12-Start
+    word: 2015/08/05-博客正式上线 blog.waydrow.com，主题使用了 Hueman
   - num: 2
-    word: 2014/11/29-XXX
+    word: 2015/08/15-主题变更 Next，添加 CSS3 过渡等
   - num: 3
-    word: 2015/02/18-DDD
+    word: 2015/11/13-主题变更 Yilia，自定义样式
   - num: 4
-    word: More
+    word: 2015/12/08-多说评论样式更新，添加旋转头像等，引入了font-awesome
+  - num: 5
+    word: 2016/01/26-顶部加载进度条，使用了Pace这个插件
+  - num: 6
+    word: 2016/02/01-Travis CI 自动部署博客到 Github，在经历了14次失败之后，终于成功配置了 travis ci 的环境，从此以后，写完博客只需git push一下就好了
+  - num: 7
+    word: 2016/02/04-添加分类及标签云，添加分类、标签云页面，自定义标签云样式，用到了 TagCanvas
+  - num: 8
+    word: 2016/02/05-添加 copyright info 信息，在每篇文章后加入版权信息
+  - num: 9
+    word: 2017/05/20-评论系统迁移到 Disqus，由于多说停止服务, 那就迁移咯
+  - num: 10
+    word: 2017/05/20-主题变更 Maupassant，回归极简风
+  - num: 11
+    word: 2017/05/24-启用 HTTPS，使用 CloudFlare
+  - num: 12
+    word: 2017/12/04-域名转入 Godaddy
+  - num: 13
+    word: 2019/08/03-waydrow.com 域名未续费被取消，博客停止访问了一段时间
+  - num: 14
+    word: 2020/03/23-启动新域名 blog.zhengzw.me
 
 # Static files
 js: js
