@@ -22,6 +22,10 @@
     "hexo-renderer-pug": "0.0.5",
     "hexo-renderer-sass": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.2"
+    "hexo-server": "^0.2.2",
+    "cryptiles": ">=4.1.2",
+    "hoek": ">=4.2.1",
+    "constantinople": ">=3.1.1",
+    "clean-css": ">=4.1.11"
   }
 }
