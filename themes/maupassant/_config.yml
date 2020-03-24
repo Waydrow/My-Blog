@@ -134,6 +134,8 @@ timeline:
     word: 2019/08/03-waydrow.com 域名未续费被取消，博客停止访问了一段时间
   - num: 14
     word: 2020/03/23-启动新域名 blog.zhengzw.me
+  - num: 15
+    word: 2020/03/24-使用 APlayer+MetingJS 搭建音乐播放器，关于页面导入网易云歌单
 
 # Static files
 js: js

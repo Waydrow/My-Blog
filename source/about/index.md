@@ -1,4 +1,4 @@
-title: 关于此个人博客的一点感悟
+title: 关于我的二三事
 date: 2015-08-05 08:53:44
 layout: page
 <!-- comments: true -->
@@ -50,9 +50,13 @@ layout: page
 - Github: [Waydrow](https://github.com/waydrow)
 
 ## 音乐分享
-<div align="center" style="margin-top: 30px;">
+{% meting "163448531" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:340px" "preload:auto" "theme:#ad7a86"%}
+<div style="margin-bottom: 20px"></div>
+
+<!-- 网易云外链 -->
+<!-- <div align="center" style="margin-top: 30px;">
 	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=163448531&auto=1&height=430"></iframe>
-</div>
+</div> -->
 
 <!-- ## 最近访客 -->
 <!-- <ul class="ds-recent-visitors" data-num-items="30" data-avatar-size="56"></ul> -->

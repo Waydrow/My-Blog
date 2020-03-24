@@ -124,6 +124,6 @@ swiftype_key: XWez5F8Bcp6m5hhZEji-
 # Specify the date when the site was setup
 since: 2015
 
-# =============================================================================
-# End NexT Theme configuration
-# =============================================================================
+# Aplayer+MeingJS 支持，音乐播放器
+aplayer:
+  meting: true
