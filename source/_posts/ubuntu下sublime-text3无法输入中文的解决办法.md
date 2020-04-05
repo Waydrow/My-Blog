@@ -1,7 +1,7 @@
 title: ubuntu下sublime text3无法输入中文的解决办法
 date: 2015-12-07 21:32:47
 toc: true
-categories: Linux
+categories: coding
 tags:
 - linux
 - ubuntu

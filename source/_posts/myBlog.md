@@ -1,6 +1,6 @@
 title: 我的博客日志——主题更新
 date: 2015-11-13 21:00:13
-categories: Blog
+categories: blog
 tags:
 - hexo
 - blog

@@ -2,7 +2,7 @@
 title: Android开发：Activity 生命周期详解
 date: 2016-02-13 22:04:15
 toc: true
-categories: Android
+categories: coding
 tags:
 - android
 - activity

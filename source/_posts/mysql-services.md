@@ -2,7 +2,7 @@
 title: MySQL5.6使用Notifier无法停止或重启服务
 date: 2016-12-04 19:21:26
 toc: true
-categories: 编程
+categories: coding
 tags:
 - mysql
 ---

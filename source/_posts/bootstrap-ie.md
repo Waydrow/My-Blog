@@ -1,7 +1,7 @@
 title: 如何让bootstrap兼容ie8+
 date: 2015-11-10 10:26:43
 toc: true
-categories: 编程
+categories: coding
 tags:
 - web
 - boostrap

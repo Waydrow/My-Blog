@@ -2,9 +2,10 @@
 title: 拥抱 HTTPS
 toc: true
 date: 2017-05-24 16:30:48
-categories: Blog
+categories: blog
 tags:
 - https
+- CloudFlare
 ---
 
 由于我使用的是独立域名, 以前天真地以为部署在`Github`上的博客是没有办法启用`HTTPS`的, 今天才知道我错了。偶然间发现了 [CloudFlare](https://www.cloudflare.com), 其提供的个人免费套餐可以为我们的博客启用`HTTPS`

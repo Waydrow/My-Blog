@@ -1,7 +1,7 @@
 title: Sublime Text3 无法使用LiveReload插件的解决方法
 date: 2015-08-16 16:10:40
 toc: true
-categories: 编程
+categories: coding
 tags:
 - sublime
 - web

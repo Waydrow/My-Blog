@@ -1,7 +1,7 @@
 title: Windows下WampServer初体验
 date: 2015-11-10 12:18:02
 toc: true
-categories: 编程
+categories: coding
 tags:
 - wampServer
 ---

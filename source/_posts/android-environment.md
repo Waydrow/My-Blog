@@ -2,7 +2,7 @@
 title: Android开发：环境配置
 date: 2016-02-06 23:24:27
 toc: true
-categories: Android
+categories: coding
 tags:
 - android
 ---

@@ -2,7 +2,7 @@
 title: 如何用正则表达式匹配中文
 date: 2016-04-26 15:51:01
 toc: true
-categories: 编程
+categories: coding
 tags:
 - php
 - 正则

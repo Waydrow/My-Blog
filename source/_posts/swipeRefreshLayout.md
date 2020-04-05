@@ -2,7 +2,7 @@
 title: Android SwipeRefreshLayout 下拉刷新组件的使用
 date: 2016-03-11 20:53:43
 toc: true
-categories: Android
+categories: coding
 tags:
 	- android
 	- swipeRefreshLayout

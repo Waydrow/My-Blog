@@ -2,7 +2,7 @@
 title: LAMP环境配置初体验
 date: 2016-02-19 20:59:37
 toc: true
-categories: Linux
+categories: coding
 tags:
 - linux
 - ubuntu

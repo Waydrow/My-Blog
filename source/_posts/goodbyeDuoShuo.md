@@ -2,8 +2,10 @@
 title: 你好 Disqus, 再见多说!
 date: 2017-05-20 15:24:26
 toc: true
-categories: Blog
+categories: blog
 tags:
+- Disqus
+- 多说
 ---
 
 从博客建立时就用的多说, 中间有一次闲的无聊, 搞成了disqus, 不过没几天就换回去了。

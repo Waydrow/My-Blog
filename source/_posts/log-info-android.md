@@ -2,7 +2,7 @@
 title: Android日志系统
 date: 2016-03-03 22:53:28
 toc: true
-categories: Android
+categories: coding
 tags:
 - android
 ---
