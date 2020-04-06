@@ -104,9 +104,6 @@ avatar: /images/avatar.png  #个人头像
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 # creative_commons: by-nc-sa
 
-# 百度分析ID
-# baidu_analytics: 440cccec3ac653933d71e5c3929b6bf0
-# google_analytics: UA-66353260-1
 
 # title, chinese available
 links_title: Links
@@ -117,9 +114,6 @@ links_title: Links
 
 # 多说热评文章 true 或者 false
 # duoshuo_hotartical: true
-
-# Swiftype Search Key
-swiftype_key: XWez5F8Bcp6m5hhZEji-
 
 # Specify the date when the site was setup
 since: 2015
