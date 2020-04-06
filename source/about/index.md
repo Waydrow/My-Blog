@@ -24,6 +24,7 @@ layout: page
 ## 研究方向
 - Social Network Analysis
 - Popularity Prediction
+- Social Recommendation
 - Bayesian Network
 
 ## 兴趣爱好
