@@ -90,5 +90,4 @@ ie8下不支持html5的属性placeholder，可以使用jquery插件来解决这�
 
 参考链接：
 ><http://hustlzp.com/post/2014/01/ie8-compatibility>
-><http://blog.csdn.net/chenhongwu666
-/article/details/41513901>
+><http://blog.csdn.net/chenhongwu666/article/details/41513901>

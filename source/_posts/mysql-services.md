@@ -17,12 +17,12 @@ tags:
 ### 打开管理面板
 点击右下角的`notifier`, 选择`Actions` -> `Manage Monitored Items...`
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/notifier.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/notifier.png)
 
 ### 删除当前服务
 
 选中当前服务, 点击右边的`Delete`即可
-![](http://7xqoa3.com1.z0.glb.clouddn.com/notifier2.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/notifier2.png)
 
 ### 重新添加`MySQL56`服务
 点击 `Add`->`Windows Services`, 在列表中找到`MySQL56`, 添加即可

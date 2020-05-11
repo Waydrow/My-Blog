@@ -24,7 +24,7 @@ Travis CI就是一个在线的、分布式的持续集成服务，用来构建�
 Travis CI 自动构建 Hexo 的工作流的构思是：
 本地向 Github 上 push 代码后，如果该代码属于目标源（我们暂时称它为 dev repo），Travis CI 就自动构建 Hexo 环境编译它，并将产出的静态博客 push 回我们的 Github pages 源（我们就称它为 pages repo）。然后即可在 pages 上查看新发布的博客。
 如下图：
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Ftravis-hexo-flowing.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/travis-hexo-flowing.png)
 
 下面分解一下：
 

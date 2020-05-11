@@ -16,7 +16,7 @@ tags:
 <!-- more -->
 ## Activity的生命周期
 话不多说，先上图
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Factivity-life.gif)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/activity-life.gif)
 通过这个图我们可以很清晰的看到Activity的整个生命流程。
 Activity其实是继承了`ApplicationContext`这个类
 ### 我们可以重写以下方法，如下代码:
@@ -136,10 +136,10 @@ public class MainActivity extends AppCompatActivity {
 
 ### 点击运行
 显示界面如图，没有什么好说的
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2F2016-02-13_202107.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/2016-02-13_202107.png)
 
 ### 打开`Logcat`查看输出信息
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2F2016-02-13_202129.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/2016-02-13_202129.png)
 
 我们可以清楚的看到，这个Activity的创建过程为
 `create`->`start`->`resume`
@@ -147,10 +147,10 @@ public class MainActivity extends AppCompatActivity {
 ## Back键和Home键的区别
 在上述运行状态下，分别点击界面的Back按钮和Home键，再次查看控制台输出
 **Back键**：
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2F2016-02-13_202534.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/2016-02-13_202534.png)
 
 **Home键**：
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2F2016-02-13_202805.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/2016-02-13_202805.png)
 
 这两者的区别显而易见了，点击Back按钮后，此Activity会经历
 `pause`->`stop`->`destroy`

@@ -20,7 +20,7 @@ tags:
 
 ### 添加网站
 注册成功后会提示你添加网站, 如下图
-![](http://7xqoa3.com1.z0.glb.clouddn.com/cf_add.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/cf_add.png)
 
 > 此处直接输入你的独立域名 (例: waydrow.com), 注意不要填写子域名, 例(blog.waydrow.com)
 
@@ -31,14 +31,14 @@ tags:
 
 ### 更换 Name Server
 这时会提示让你更换 Name Server, 以我所使用的万网为例
-![](http://7xqoa3.com1.z0.glb.clouddn.com/cf_change.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/cf_change.png)
 
 如上图所示, 将 Name Server 修改为 CloudFlare 所提供的
 
 ### 等待确认
 CloudFlare 提示的时间需要等待几个小时, 但实际好像不需要这么长时间, 我就等了几分钟就可以了
 在配置面板中点击 `Recheck Nameservers`, 会发现网站已经激活, 如下图
-![](http://7xqoa3.com1.z0.glb.clouddn.com/cf_active.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/cf_active.png)
 
 接下来就可以使用 [https://blog.waydrow.com](https://blog.waydrow.com) 访问本站点了
 

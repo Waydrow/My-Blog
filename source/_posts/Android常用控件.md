@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 展示如下图:
-![](http://7xrmgx.com1.z0.glb.clouddn.com/2016-03-10_210102.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/2016-03-10_210102.png)
 
 ### 日期选择器
 
@@ -68,7 +68,7 @@ new DatePickerDialog(ChooseADate.this, new DatePickerDialog.OnDateSetListener() 
 },2016,2,30).show();
 ```
 
-![](http://7xrmgx.com1.z0.glb.clouddn.com/date.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/date.png)
 
 非常好看的一个日历控件
 
@@ -85,7 +85,7 @@ new TimePickerDialog(ChooseTime.this, new TimePickerDialog.OnTimeSetListener() {
 },0,0,true).show();
 ```
 
-![](http://7xrmgx.com1.z0.glb.clouddn.com/time.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/time.png)
 
 
 ### 单项选择
@@ -124,10 +124,10 @@ new TimePickerDialog(ChooseTime.this, new TimePickerDialog.OnTimeSetListener() {
 </RadioGroup>
 ```
 
-![](http://7xrmgx.com1.z0.glb.clouddn.com/singleChoice.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/singleChoice.png)
 
 ### 多项选择
 使用`CheckBox`控件即可
 
-![](http://7xrmgx.com1.z0.glb.clouddn.com/mulChoice.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/mulChoice.png)
 

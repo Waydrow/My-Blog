@@ -22,41 +22,41 @@ tags:
 [国内下载链接](http://pan.baidu.com/s/1nuhv3qp#path=%252F1.5.1)
 这是官网截图：
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Fandroid-develop.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/android-develop.png)
 ### 安装
 一路安装即可，记得把`Android SDK`和`Android Virtual Device`选项勾选上
 安装成功后，打开
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Fandroid-studio.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/android-studio.png)
 
 ## 创建新项目
 我们来创建一个`HelloAndroid`新项目测试一下
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Fandroid-first-test.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/android-first-test.png)
 
 ## 运行
 我们先用官方的avd模拟器运行一下，直接点击那个绿色的运行箭头就好了, 如下图
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Favd-test.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/avd-test.png)
 
 
 一开始的话我们可能需要新建一个模拟器
 
 加载过程：
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Floading.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/loading.png)
 
 
 模拟器启动界面：
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Frunning.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/running.png)
 
 主界面：
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Fview.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/view.png)
 
 程序运行界面：
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Fhello-world.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/hello-world.png)
 
 看起来还不错
 

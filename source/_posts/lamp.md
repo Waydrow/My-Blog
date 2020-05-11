@@ -18,7 +18,7 @@ sudo apt-get install apache2
 ```
 安装完毕后在浏览器中输入：`localhost`，或`127.0.0.1` (就是本机地址咯)
 显示如下图，则安装成功：
-![](http://7xqoa3.com1.z0.glb.clouddn.com/imagesImage.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/imagesImage.png)
 
 ## 安装PHP
 ### 安装
@@ -52,9 +52,9 @@ sudo apt-get install mysql-server mysql-client
 
 系统提示设置密码：
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/imagesImage1.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/imagesImage1.png)
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/imagesImage2.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/imagesImage2.png)
 
 `New password for the MySQL “root” user: `<– 输入你的root密码
 `Repeat password for the MySQL “root” user: `<– 再输入一次
@@ -96,14 +96,14 @@ sudo service apache2 restart
 sudo apt-get install phpmyadmin
 ```
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/imagesImage3.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/imagesImage3.png)
 
 选择第一个
 
 ### 设置phpmyadmin
-![](http://7xqoa3.com1.z0.glb.clouddn.com/imagesImage4.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/imagesImage4.png)
 
-![](http://7xqoa3.com1.z0.glb.clouddn.com/imagesImage5.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/imagesImage5.png)
 
 ### 创建phpmyadmin链接
 ```bash
@@ -111,7 +111,7 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html/
 ```
 现在在浏览器中输入：`localhost/phpadmin`
 登陆后就能正确显示管理界面。
-![](http://7xqoa3.com1.z0.glb.clouddn.com/imagesImage6.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/imagesImage6.png)
 
 ## 后记
 如有问题，欢迎直接在下方讨论留言

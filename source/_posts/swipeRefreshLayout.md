@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-![](http://7xrmgx.com1.z0.glb.clouddn.com/swipe.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/swipe.png)
 
 ### xml资源文件
 

@@ -17,13 +17,13 @@ tags:
 生成ssh-key请参见官网教程：[Generating an SSH key](https://help.github.com/articles/generating-an-ssh-key/)
 这里我们假设生成的两个文件名为`id_rsa.pub` 和 `id_rsa`，其中`.pub`是公钥，我们需要将其添加到github上。
 注意：这个 SSH key 不应成为你账号的全局 SSH key（因为这样 Travis CI 就获得了你所有代码库的提交权限，这是不严谨的），而应该添加至 https://github.com/username/username.github.io/settings/keys ，这样能更好的限制 Travis CI 的提交权限。即下图所示位置：
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2Fdeploy-key.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/deploy-key.png)
 
 ## 申请Travis CI
 在<https://travis-ci.org/>,用github帐号登录，找到你的博客仓库，开启Travis CI服务，如下图：
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2F2016-02-01_221125.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/2016-02-01_221125.png)
 在其中的设置页面作如下设置：
-![](http://7xqoa3.com1.z0.glb.clouddn.com/images%2F2016-02-01_221211.png)
+![](https://raw.githubusercontent.com/Waydrow/PicGo/master/img/2016-02-01_221211.png)
 
 ## 加密 Private Key
 下面的操作需要 Ruby 和 gem 环境，`Windows`下配置有很多问题，建议在`Linux下`，下面以`Ubuntu 14.04 LTS`为例来向大家介绍
