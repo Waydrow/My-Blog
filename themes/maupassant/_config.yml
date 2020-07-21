@@ -74,32 +74,35 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: Ymming
-    url: http://blog.ymming.com/
-  - title: 执凉
-    url: http://blog.lzkzhiliang.com/
+
   - title: Netcan
     url: http://www.netcan666.com/
-  - title: 墨
-    url: http://lyeec.me/
   - title: DIYgod
     url: https://www.anotherhome.net
   - title: 稗田千秋
     url: https://wind.moe
-  - title: Fevering
-    url: http://fevering.cn/
   - title: 魏来
     url: http://weilai5432.github.io/
-  - title: 小忆
-    url: https://blog.iiwo.vip
   - title: Ultron Blog
     url: https://blog.wixy.cn
   - title: 胡博靖
     url: http://hubojing.github.io/
-  - title: ZeeCoder
-    url: https://zcheng.ren/
   - title: 刘伟
     url: https://darrenliuwei.com/
+  - title: 卡拉搜索
+    url: https://kalasearch.cn/blog
+  - title: Ymming (失联)
+    url: http://blog.ymming.com/
+  - title: 执凉 (失联)
+    url: http://blog.lzkzhiliang.com/
+  - title: 墨 (失联)
+    url: http://lyeec.me/
+  - title: Fevering (失联)
+    url: http://fevering.cn/
+  - title: 小忆 (失联)
+    url: https://blog.iiwo.vip
+  - title: ZeeCoder (失联)
+    url: https://zcheng.ren/
 
 timeline:
   - num: 1
